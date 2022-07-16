@@ -20,7 +20,7 @@ function getuser() {
     user.textContent = name;
 };
 
-getuser();
+//getuser();
 
 function  newgame() {
    coins.value = 200; 
