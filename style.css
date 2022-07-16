@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-image: url('cards.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    /*font-weight: 900;*/
+    text-align: center;
+}
+nav {
+    height: 150px;
+    display: flex;
+    gap: 25%;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.player-section {
+    width: 50%;
+    
+}
+.head {
+    height: 150px;
+    width: 150px;
+    background: transparent;
+} 
+input {
+    width: 80px;
+    padding: 20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: grey;
+    font-size: 18px;
+    color: gold;
+    
+    margin-right: 20px;
+}
+label {
+    font-size: 22px;
+}
+.pc {
+    float: right;
+    width: 80%;
+}
+h2 {
+    margin-left: 25%;
+    margin-bottom: 10px;
+    /*font-size: 40px;*/
+    
+}
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+p {
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+.btn {
+   width: 150px;
+   height: 45px;
+   background: gold;
+   border: none;
+   color: green;
+   font-weight: 700; 
+   outline: none;
+   margin-left: 25px;
+}
+
+button {
+    width: 35%;
+    height: 45px;
+    background: gold;
+    border: none;
+    color: green;
+    font-weight: 700; 
+    outline: none;
+    margin-block: 10px;
+}
+#coins {
+    /*float: right;*/
+}
+.img-sec {
+    padding-block: 8px;
+}
+img {
+    border: 2px solid black;
+    background: white;
+    height: 92px;
+    margin-right: 5px;
+    width: 80px;
+}
+@media(min-width:900px){
+    body {
+        height: 100vh;
+    }
+    .head {
+        height: 250px;
+        width: 200px;
+    }
+    h3, p {
+        font-size: 35px;
+    }
+    button {
+        font-size: 25px;
+    }
+    .btn {
+        width: 180px;
+    }
+    img {
+    border: none;
+    height: 150px;
+    margin-right: 10px;
+    width: 150px;
+}
+}
